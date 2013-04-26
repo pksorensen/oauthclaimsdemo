@@ -18,8 +18,8 @@ namespace OauthClaimsDemo.Controllers
         {
             OAuth2Client.Instance.RegisterProvider(
                 ProviderType.Google,
-                "421418234584-3n8ub7gn7gt0naghh6sqeu7l7l45te1c.apps.googleusercontent.com",
-                "KDJt_7Rm6Or2pJulBdy0gvpx");
+                "539276601595.apps.googleusercontent.com",
+                "RbE5_zZ40f0yMYSJaxNkUUPp");
 
             OAuth2Client.Instance.RegisterProvider(
                 ProviderType.Facebook,
