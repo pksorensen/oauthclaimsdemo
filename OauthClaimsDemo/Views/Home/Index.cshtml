@@ -2,12 +2,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Login With:</h2>
+
 <h3>Visit: <a href="http://www.s-innovations.dk/Blog/2013/04/26/Deploying-a-social-claims-aware-Azure-Websites-using-Git" >Associated Blogpost</a></h3>
+<h2>Login With:</h2>
 <ul>
     <li>@Html.ActionLink("Google", "Login", new { type = BrockAllen.OAuth2.ProviderType.Google })</li>
-    <li>@Html.ActionLink("Live", "Login", new { type = BrockAllen.OAuth2.ProviderType.Live}) (Not added)</li>
-    <li>@Html.ActionLink("Facebook", "Login", new { type = BrockAllen.OAuth2.ProviderType.Facebook})</li>
+    <li>@Html.ActionLink("Live", "Login", new { type = BrockAllen.OAuth2.ProviderType.Live}) </li>
+    <li>@Html.ActionLink("Facebook", "Login", new { type = BrockAllen.OAuth2.ProviderType.Facebook}) (Not added)</li>
 </ul>
 @{
     var id = System.Security.Claims.ClaimsPrincipal.Current;
